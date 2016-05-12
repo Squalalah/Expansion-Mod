@@ -1,6 +1,6 @@
 <SoftwareType>
-	<Name>Website</Name>
-	<Description>An interactive online magical page of awesomeness.</Description>
+	<Name>Site internet</Name>
+	<Description>Une page magique interactive en ligne, que du génie !</Description>
 	<Random>0.3</Random>
 	<Popularity>0.7</Popularity>
 	<OSSpecific>False</OSSpecific>
@@ -12,7 +12,7 @@
 	<Category>Website</Category>
 	<Categories>
 		<Category Name="Website">
-			<Description>An interactive online magical page of awesomeness.</Description>
+			<Description>Une page magique interactive en ligne, que du génie !</Description>
 			<Popularity>0.7</Popularity>
 	        <Retention>0.9</Retention>
 	        <Iterative>0.7</Iterative>
@@ -23,7 +23,7 @@
 	</Categories>
 	<Features>
 		<Feature Forced="True">
-			<Name>HTML Based</Name>
+			<Name>Base HTML</Name>
 			<Description>Hah, Thee, My, Lolly</Description>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
@@ -33,8 +33,8 @@
 			<Server>0.001</Server>
 		</Feature>
 		<Feature Viral="True">
-			<Name>CSS Support</Name>
-			<Description> Yay! Styles!</Description>
+			<Name>Support CSS</Name>
+			<Description> Ouais ! C'est stylé !</Description>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -45,7 +45,7 @@
 		</Feature>
 		<Feature Viral="True">
 			<Name>JQuery</Name>
-			<Description>I can't explain everything okay! I'm not a Website pro!</Description>
+			<Description>Je peux pas tout vous expliquez ! Je suis pas un pro des websites !</Description>
 			<Innovation>0.5</Innovation>
 			<Usability>2.5</Usability>
 			<Stability>1</Stability>
@@ -55,7 +55,7 @@
 		</Feature>
 		<Feature From="JQuery" Override="True" Viral="True">
 			<Name>JavaScript</Name>
-			<Description>Better than JQuery!</Description>
+			<Description>Meilleur que JQuery !</Description>
 			<Innovation>1</Innovation>
 			<Usability>3</Usability>
 			<Stability>1.9</Stability>
@@ -65,7 +65,7 @@
 		</Feature>
 		<Feature>
 			<Name>Logo</Name>
-			<Description>Fancy picture of your company all over the site.</Description>
+			<Description>Une petite image fantaisiste pour le logo de votre site ?</Description>
 			<Innovation>1.5</Innovation>
 			<Usability>0</Usability>
 			<Stability>0</Stability>
@@ -77,8 +77,8 @@
 			</Needs>
 		</Feature>
 		<Feature>
-			<Name>Advertisements</Name>
-			<Description>More Advertisements = More money</Description>
+			<Name>Publicité</Name>
+			<Description>Plein de publicités = Plein de tune !</Description>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>1.5</Stability>
@@ -87,8 +87,8 @@
 			<Unlock>2011</Unlock>
 		</Feature>
 		<Feature>
-			<Name>Store</Name>
-			<Description>Like Steam but on your website!</Description>
+			<Name>Boutique</Name>
+			<Description>Comme Steam, mais sur votre site !</Description>
 			<Innovation>0</Innovation>
 			<Usability>1.5</Usability>
 			<Stability>1.5</Stability>
@@ -97,8 +97,8 @@
 			<Unlock>2012</Unlock>
 		</Feature>
 		<Feature Viral="True">
-			<Name>Forums</Name>
-			<Description>A magical place where you can talk together.</Description>
+			<Name>Forum</Name>
+			<Description>Un lieu magique rempli de conversations, l'endroit idéal pour parler ensemble !</Description>
 			<Innovation>1.5</Innovation>
 			<Usability>2</Usability>
 			<Stability>0</Stability>

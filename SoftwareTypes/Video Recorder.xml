@@ -1,6 +1,6 @@
 !<SoftwareType>
-	<Name>Video Recorder</Name>
-	<Description>Record whatever you do, from gaming to painting, to animations, whatever.</Description>
+	<Name>Capture vidéo</Name>
+	<Description>Enregistrez tout ce que vous faites sur votre écran ! Des jeux de hasard à la peinture, aux animations, peu importe, de tout !</Description>
 	<Random>0.1</Random>
 	<Popularity>0.5</Popularity>
 	<OSSpecific>True</OSSpecific>
@@ -14,8 +14,8 @@
 		<Name>2D Editior</Name>
 	</Needs>
 	<Categories>
-		<Category Name="Computer">
-			<Description>Record your screen while you play, paint, surf the internet, and more.</Description>
+		<Category Name="Ordinateur">
+			<Description>Enregistrez tout ce que vous faites sur votre écran ! Des jeux de hasard à la peinture, aux animations, peu importe, de tout !</Description>
 			<Popularity>0.4</Popularity>
 			<Retention>0.5</Retention>
 			<TimeScale>2</TimeScale>
@@ -26,17 +26,17 @@
 	</Categories>
 	<Features>
 		<Feature Forced="True">
-			<Name>Basic Recording</Name>
-			<Description>Just the standard recording, nothing much.</Description>
+			<Name>Enregistrement standard</Name>
+			<Description>Juste un enregistrement des plus ordinaires.</Description>
 			<Innovation>0.5</Innovation>
 			<Usability>0.5</Usability>
 			<Stability>1.5</Stability>
 			<CodeArt>0.75</CodeArt>
 			<DevTime>1</DevTime>
 		</Feature>
-		<Feature Viral="True" From="Basic Recording" Override="True">
-			<Name>Improved Recording</Name>
-			<Description>Nothing new, except its faster.</Description>
+		<Feature Viral="True" From="Enregistrement standard" Override="True">
+			<Name>Amélioration de l'enregistrement</Name>
+			<Description>Rien de plus, juste le son qui est moins décalé.</Description>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -45,8 +45,8 @@
 			<Unlock>2001</Unlock>
 		</Feature>
 		<Feature>
-			<Name>Button Shortcuts</Name>
-			<Description>F9 to Record</Description>
+			<Name>Raccourci</Name>
+			<Description>Un petit F9 pour commencer l'enregistrement.</Description>
 			<Innovation>1.5</Innovation>
 			<Usability>2</Usability>
 			<Stability>0.5</Stability>
@@ -54,9 +54,9 @@
 			<DevTime>1</DevTime>
 			<Unlock>2001</Unlock>
 		</Feature>
-		<Feature From="Button Shortcuts" Override="True">
-			<Name>Changeable Button Shortcuts</Name>
-			<Description>Press ESC to change your Recording button shortcut.</Description>
+		<Feature From="Raccourci" Override="True">
+			<Name>Raccourci personnalisable</Name>
+			<Description>Appuyer sur « ECHAP » pour changer le raccourci de l'enregistrement.</Description>
 			<Innovation>1.9</Innovation>
 			<Usability>2.5</Usability>
 			<Stability>0</Stability>
@@ -65,8 +65,8 @@
 			<Unlock>2002</Unlock>
 		</Feature>
 		<Feature Viral="True">
-			<Name>Game Optimization</Name>
-			<Description>Now you can play games even more smoothy!</Description>
+			<Name>Optimisation du jeu</Name>
+			<Description>À présent, vos jeux sont bien plus fluides qu'auparavant.</Description>
 			<Innovation>2</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
