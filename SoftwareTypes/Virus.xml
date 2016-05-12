@@ -1,6 +1,6 @@
 !<SoftwareType>
 	<Name>Virus</Name>
-	<Description>Infect those kids that think they can get software for free.</Description>
+	<Description>Infecte les personnes qui pensent pouvoir acheter le jeu gratuitement.</Description>
 	<Random>0.1</Random>
 	<Popularity>0.4</Popularity>
 	<OSSpecific>True</OSSpecific>
@@ -12,7 +12,7 @@
 	<Category>Virus</Category>
 	<Categories>
 		<Category Name="Malware">
-			<Description>There is nothing better than getting money through adware and getting passwords through spyware.</Description>
+			<Description>Il n'y a rien de mieux que d'obtenir de la tune par le biais d'un adware ou d'un logiciel espion pour les mots de passes.</Description>
 			<Popularity>0.5</Popularity>
 			<Retention>0.2</Retention>
 			<TimeScale>2</TimeScale>
@@ -24,7 +24,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Adware</Name>
-			<Description>Annoying ads, and you get the profit!</Description>
+			<Description>Publicité ! c'est un bon moyen de gagner de l'argent.</Description>
 			<Innovation>0</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -34,7 +34,7 @@
 		</Feature>
 		<Feature Viral="True">
 			<Name>Spyware</Name>
-			<Description>Now you know their identity, their passwords, and more!</Description>
+			<Description>À présent vous connaissez leur identifiants, et leur mots de passses, et plus encore !</Description>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -44,8 +44,8 @@
 			<SoftwareCategory Category="Malware">2003</SoftwareCategory>
 		</Feature>
 		<Feature Viral="True">
-			<Name>Website infection</Name>
-			<Description>Infect websites by visiting them, so other people will get invected too.</Description>
+			<Name>Infection d'un Website</Name>
+			<Description>Infecte un site web, ses visisteurs vont avoir une supprise lorsqu'ils vont être infectés égalements.</Description>
 			<Innovation>1.5</Innovation>
 			<Usability>2.1</Usability>
 			<Stability>1.5</Stability>
@@ -53,9 +53,9 @@
 			<DevTime>2</DevTime>
 			<Unlock>2003</Unlock>
 		</Feature>
-		<Feature From="Website infection" Viral="True">
-			<Name>E-Mail infection</Name>
-			<Description>Infect other people by sending them E-Mails.</Description>
+		<Feature From="Infection d'un Website" Viral="True">
+			<Name>Infection par E-mail</Name>
+			<Description>Infecte des personnes en leur envoyant un E-mail.</Description>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -65,7 +65,7 @@
 		</Feature>
 		<Feature Viral="True">
 			<Name>Antivirus Bypass</Name>
-			<Description>Now these antivirusses wont find your virus anymore.</Description>
+			<Description>Maintenant les antivirus ne veront plus votre virus.</Description>
 			<Innovation>1.5</Innovation>
 			<Usability>1.5</Usability>
 			<Stability>3</Stability>
