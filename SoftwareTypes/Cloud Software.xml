@@ -1,6 +1,6 @@
 <SoftwareType>
-	<Name>Cloud Software</Name>
-	<Description>Be able to upload files to a database and use it wherever you want.</Description>
+	<Name>Logiciel Cloud</Name>
+	<Description>Permet d'upload des fichiers à une base de donnée et de les utiliser où que l'on soit.</Description>
 	<Random>0.2</Random>
 	<Popularity>0.3</Popularity>
 	<OSSpecific>False</OSSpecific>
@@ -9,10 +9,10 @@
 	<Retention>0.3</Retention>
 	<Iterative>0.8</Iterative>
 	<Unlock>2000</Unlock>
-	<Category>Cloud Software</Category>
+	<Category>Logiciel Cloud</Category>
 	<Categories>
 		<Category Name="Default">
-			<Description>Store files & data to a database and use it wherever you want.</Description>
+			<Description>Stocke des fichiers et des données dans une base de donneé pour les utiliser où que l'on soit.</Description>
 			<Popularity>0.4</Popularity>
 			<Retention>0.3</Retention>
 			<TimeScale>1</TimeScale>
@@ -21,12 +21,12 @@
 		</Category>
 	</Categories>
 	<Needs>
-		<Name>2D Editor</Name>
+		<Name>Editeur 2D</Name>
 	</Needs>
 	<Features>
 		<Feature Forced="TRUE">
-			<Name>HDD Servers</Name>
-			<Description>Standard storage, not so fast.</Description>
+			<Name>Serveurs de stockage</Name>
+			<Description>Stockage standard, pas très rapide.</Description>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -35,17 +35,17 @@
 			<Server>0.001</Server>
 		</Feature>
 		<Feature Forced="TRUE">
-			<Name>512 MB Storage</Name>
-			<Description>Have half of a GB worth of storage.</Description>
+			<Name>Stockage 512mo</Name>
+			<Description>La moitié d'un Go.</Description>
 			<Innovation>0.5</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<DevTime>1</DevTime>
 		</Feature>
-		<Feature From="512 MB Storage" Override="True" Viral="TRUE">
-			<Name>1 GB Storage</Name>
-			<Description> 1024 MB worth of storage, its better than nothing.</Description>
+		<Feature From="Stockage 512mo" Override="True" Viral="TRUE">
+			<Name>Stockage 1Go</Name>
+			<Description> 1024 Mo de stockage, c'est mieux que rien.</Description>
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
@@ -53,9 +53,9 @@
 			<DevTime>2</DevTime>
 			<Unlock>2001</Unlock>
 		</Feature>
-		<Feature From="1 GB Storage" Override="True" Viral="TRUE">
-			<Name>16 GB Storage</Name>
-			<Description> You must have a lot of files to store, don't you?</Description>
+		<Feature From="Stockage 1Go" Override="True" Viral="TRUE">
+			<Name>Stockage 16Go</Name>
+			<Description> Tu dois avoir un bon paquet de fichier à stocker, n'est ce pas ?</Description>
 			<Innovation>1.5</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
@@ -63,9 +63,9 @@
 			<DevTime>3</DevTime>
 			<Unlock>2002</Unlock>
 		</Feature>
-		<Feature From="16 GB Storage" Override="TRUE" Viral="TRUE">
-			<Name>32 GB Storage</Name>
-			<Description> I bet you won't fill up this much of storage.</Description>
+		<Feature From="Stockage 16Go" Override="TRUE" Viral="TRUE">
+			<Name>Stockage 32Go</Name>
+			<Description> Tu ne seras pas capable de le remplir à ras bord:./Description>
 			<Innovation>2</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
@@ -73,9 +73,9 @@
 			<DevTime>4</DevTime>
 			<Unlock>2003</Unlock>
 		</Feature>
-		<Feature From="32 GB Storage" Override="TRUE" Viral="TRUE">
-			<Name>1 TB Storage</Name>
-			<Description> Do I even want to know what you with this much of storage?</Description>
+		<Feature From="Stockage 32Go" Override="TRUE" Viral="TRUE">
+			<Name>Stockage 1To</Name>
+			<Description> Je voudrais savoir ce que tu ferais avec autant de place ?</Description>
 			<Innovation>3</Innovation>
 			<Usability>1</Usability>
 			<Stability>1.5</Stability>
@@ -83,9 +83,9 @@
 			<Unlock>2004</Unlock>
 			<DevTime>5</DevTime>
 		</Feature>
-		<Feature From="HDD Servers" Override="TRUE" Viral="TRUE">
-			<Name>SSD Servers</Name>
-			<Description>Blazing fast!</Description>
+		<Feature From="Serveurs de stockage" Override="TRUE" Viral="TRUE">
+			<Name>Serveurs de stockage SSD</Name>
+			<Description>Ca va beaucoup plus vite !</Description>
 			<Innovation>1</Innovation>
 			<Usability>1.5</Usability>
 			<Stability>2</Stability>
@@ -95,8 +95,8 @@
 			<Server>0.002</Server>
 		</Feature>
 		<Feature Viral="TRUE">
-			<Name>Password Protection</Name>
-			<Description>ABC123 is not a good password!</Description>
+			<Name>Protection avec Mot de passe</Name>
+			<Description>ABC123 n'est pas un bon mot de passe!</Description>
 			<Innovation>1</Innovation>
 			<Usability>1.5</Usability>
 			<Stability>2</Stability>
@@ -104,9 +104,9 @@
 			<Unlock>2001</Unlock>
 			<DevTime>1</DevTime>
 		</Feature>
-		<Feature From="Password Protection" Override="TRUE" Viral="TRUE">
-			<Name>Better Password Protection</Name>
-			<Description>Even with this good of a protection, ABC123 is still not a good password.</Description>
+		<Feature From="Protection avec Mot de passe" Override="TRUE" Viral="TRUE">
+			<Name>Meilleure protection avec Mot de passe</Name>
+			<Description>Même avec une meilleure protection, ABC123 n'est toujours pas un bon mot de passe.</Description>
 			<Innovation>1.5</Innovation>
 			<Usability>1.5</Usability>
 			<Stability>2.5</Stability>
@@ -115,7 +115,7 @@
 			<DevTime>2</DevTime>
 		</Feature>
 		<Feature Viral="TRUE">
-			<Name>Encrypted Files</Name>
+			<Name>Fichiers cryptés</Name>
 			<Description>10101010100011010</Description>
 			<Innovation>1.5</Innovation>
 			<Usability>1.5</Usability>
@@ -125,8 +125,8 @@
 			<DevTime>1</DevTime>
 		</Feature>
 		<Feature Viral="TRUE">
-			<Name>Virus Protection</Name>
-			<Description>Don't let these skrubs infect your whole database.</Description>
+			<Name>Protection anti-virus</Name>
+			<Description>Ne laissez pas ces saloperies détruire votre base de donnée.</Description>
 			<Innovation>2</Innovation>
 			<Stability>1.5</Stability>
 			<Usability>1.5</Usability>
@@ -134,9 +134,9 @@
 			<DevTime>13</DevTime>
 			<CodeArt>2</CodeArt>
 		</Feature>
-		<Feature From="Virus Protection" Override="TRUE" Viral="TRUE">
-			<Name>Better Virus Protection</Name>
-			<Description>Don't let these skrubs infect your whole database.</Description>
+		<Feature From="Protection anti-virus" Override="TRUE" Viral="TRUE">
+			<Name>Meilleure protection anti-virus</Name>
+			<Description>Ne laissez pas ces saloperies détruire votre base de donnée.</Description>
 			<Innovation>2.5</Innovation>
 			<Stability>2</Stability>
 			<Usability>2</Usability>
