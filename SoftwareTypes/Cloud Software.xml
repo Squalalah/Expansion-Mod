@@ -1,0 +1,148 @@
+<SoftwareType>
+	<Name>Cloud Software</Name>
+	<Description>Be able to upload files to a database and use it wherever you want.</Description>
+	<Random>0.2</Random>
+	<Popularity>0.3</Popularity>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>False</InHouse>
+	<Retention>0.3</Retention>
+	<Iterative>0.8</Iterative>
+	<Unlock>2000</Unlock>
+	<Category>Cloud Software</Category>
+	<Categories>
+		<Category Name="Default">
+			<Description>Store files & data to a database and use it wherever you want.</Description>
+			<Popularity>0.4</Popularity>
+			<Retention>0.3</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>Cloud</NameGenerator>
+		</Category>
+	</Categories>
+	<Needs>
+		<Name>2D Editor</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>HDD Servers</Name>
+			<Description>Standard storage, not so fast.</Description>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>1</DevTime>
+			<Server>0.001</Server>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>512 MB Storage</Name>
+			<Description>Have half of a GB worth of storage.</Description>
+			<Innovation>0.5</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>1</DevTime>
+		</Feature>
+		<Feature From="512 MB Storage" Override="True" Viral="TRUE">
+			<Name>1 GB Storage</Name>
+			<Description> 1024 MB worth of storage, its better than nothing.</Description>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>2001</Unlock>
+		</Feature>
+		<Feature From="1 GB Storage" Override="True" Viral="TRUE">
+			<Name>16 GB Storage</Name>
+			<Description> You must have a lot of files to store, don't you?</Description>
+			<Innovation>1.5</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>3</DevTime>
+			<Unlock>2002</Unlock>
+		</Feature>
+		<Feature From="16 GB Storage" Override="TRUE" Viral="TRUE">
+			<Name>32 GB Storage</Name>
+			<Description> I bet you won't fill up this much of storage.</Description>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>4</DevTime>
+			<Unlock>2003</Unlock>
+		</Feature>
+		<Feature From="32 GB Storage" Override="TRUE" Viral="TRUE">
+			<Name>1 TB Storage</Name>
+			<Description> Do I even want to know what you with this much of storage?</Description>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>1.5</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2004</Unlock>
+			<DevTime>5</DevTime>
+		</Feature>
+		<Feature From="HDD Servers" Override="TRUE" Viral="TRUE">
+			<Name>SSD Servers</Name>
+			<Description>Blazing fast!</Description>
+			<Innovation>1</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2005</Unlock>
+			<DevTime>2</DevTime>
+			<Server>0.002</Server>
+		</Feature>
+		<Feature Viral="TRUE">
+			<Name>Password Protection</Name>
+			<Description>ABC123 is not a good password!</Description>
+			<Innovation>1</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2001</Unlock>
+			<DevTime>1</DevTime>
+		</Feature>
+		<Feature From="Password Protection" Override="TRUE" Viral="TRUE">
+			<Name>Better Password Protection</Name>
+			<Description>Even with this good of a protection, ABC123 is still not a good password.</Description>
+			<Innovation>1.5</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>2.5</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2002</Unlock>
+			<DevTime>2</DevTime>
+		</Feature>
+		<Feature Viral="TRUE">
+			<Name>Encrypted Files</Name>
+			<Description>10101010100011010</Description>
+			<Innovation>1.5</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>2.5</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2003</Unlock>
+			<DevTime>1</DevTime>
+		</Feature>
+		<Feature Viral="TRUE">
+			<Name>Virus Protection</Name>
+			<Description>Don't let these skrubs infect your whole database.</Description>
+			<Innovation>2</Innovation>
+			<Stability>1.5</Stability>
+			<Usability>1.5</Usability>
+			<Unlock>2004</Unlock>
+			<DevTime>13</DevTime>
+			<CodeArt>2</CodeArt>
+		</Feature>
+		<Feature From="Virus Protection" Override="TRUE" Viral="TRUE">
+			<Name>Better Virus Protection</Name>
+			<Description>Don't let these skrubs infect your whole database.</Description>
+			<Innovation>2.5</Innovation>
+			<Stability>2</Stability>
+			<Usability>2</Usability>
+			<Unlock>2005</Unlock>
+			<DevTime>3</DevTime>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

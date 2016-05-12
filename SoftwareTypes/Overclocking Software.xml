@@ -1,0 +1,67 @@
+<SoftwareType>
+	<Name>Overclocking Software</Name>
+	<Description>Make your hardware run faster.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.1</Popularity>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Retention>0.3</Retention>
+	<Iterative>0.6</Iterative>
+	<Unlock>1990</Unlock>
+	<Category>Overclocking Software</Category>
+	<Categories>
+	    <Category Name="Default">
+	    	<Description>Make your hardware run faster.</Description>
+	    	<Popularity>0.3</Popularity>
+	    	<Retention>0.3</Retention>
+	    	<TimeScale>1</TimeScale>
+	    	<NameGenerator>Overclock</NameGenerator>
+	    	<Iterative>0.3</Iterative>
+	    </Category>
+	</Categories>
+	<Needs>
+		<Name>2D Editor</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Simple Overclocking</Name>
+			<Description>Dangerous, takes long, and barely effective.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="Simple Overclocking" Vital="TRUE">
+			<Name>Improved Overclocking</Name>
+			<Description>Still a bit dangerous, takes not very long, and is a bit effective.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1.5</Innovation>
+			<Usability>2.5</Usability>
+			<Stability>0.5</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1991</Unlock>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>User Interface</Name>
+			<Description>Have those fancy menus.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Unlock>1992</Unlock>
+		</Feature>
+		<Feature From="User Interface" Vital="True">
+			<Name>Better User Interface</Name>
+			<Description>Even more fancy menus.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2.5</Innovation>
+			<Usability>2.5</Usability>
+			<Stability>1.5</Stability>
+			<CodeArt>0.4</CodeArt>
+			<Unlock>1993</Unlock>
+		</Feature>
+	</Features>
+</SoftwareType>
