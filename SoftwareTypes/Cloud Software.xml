@@ -65,7 +65,7 @@
 		</Feature>
 		<Feature From="Stockage 16Go" Override="TRUE" Viral="TRUE">
 			<Name>Stockage 32Go</Name>
-			<Description> Tu ne seras pas capable de le remplir à ras bord:./Description>
+			<Description> Tu ne seras pas capable de le remplir à ras bord:.</Description>
 			<Innovation>2</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
