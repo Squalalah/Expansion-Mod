@@ -1,6 +1,6 @@
 <SoftwareType>
-	<Name>Streaming Software</Name>
-	<Description>LIVE on LiveTV!</Description>
+	<Name>Logiciel de Streaming</Name>
+	<Description>En direct sur la télévision !</Description>
 	<Random>0.3</Random>
 	<Popularity>0.2</Popularity>
 	<OSSpecific>TRUE</OSSpecific>
@@ -12,7 +12,7 @@
 	<Category>Streaming Software</Category>
 	<Categories>
 		<Category Name="Default">
-			<Description>LIVE on LiveTV!</Description>
+			<Description>En direct sur la télévision !</Description>
 			<Popularity>0.29</Popularity>
 			<Retention>0.29</Retention>
 			<TimeScale>1</TimeScale>
@@ -21,13 +21,13 @@
 		</Category>
 	</Categories>
 	<Needs>
-		<Name>Website</Name>
+		<Name>Site internet</Name>
 		<Name>Audio Tool</Name>
 	</Needs>
 	<Features>
 		<Feature Forced="True">
-			<Name>Basic Streaming</Name>
-			<Description>Basic stuff</Description>
+			<Name>Streaming</Name>
+			<Description>Il faut bien un équipement de base non ?</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
@@ -36,8 +36,8 @@
 			<Unlock>1990</Unlock>
 		</Feature>
 		<Feature Forced="True">
-			<Name>Horrible Quality</Name>
-			<Description>144p, ew</Description>
+			<Name>Qualité horrible</Name>
+			<Description>Du 144p, comment faire pire ?</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>0.1</Usability>
@@ -46,8 +46,8 @@
 			<Unlock>1990</Unlock>
 		</Feature>
 		<Feature>
-			<Name>Donate-in-Stream</Name>
-			<Description>DONATION: 10$ To Griffindor!</Description>
+			<Name>Faire un don</Name>
+			<Description>Don : 10€ à Gryffondor !</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
@@ -56,7 +56,7 @@
 			<Unlock>1991</Unlock>
 		</Feature>
 		<Feature>
-			<Name>Text-in-Stream</Name>
+			<Name>Tchat en live</Name>
 			<Description>Blah blah blah</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
@@ -66,8 +66,8 @@
 			<Unlock>1991</Unlock>
 		</Feature>
 		<Feature>
-			<Name>Music-in-Stream</Name>
-			<Description>Please don't stop the music!</Description>
+			<Name>Musique en live</Name>
+			<Description>Non arrête cette musique, c'est un horreur !</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
@@ -75,8 +75,8 @@
 			<CodeArt>0</CodeArt>
 			<Unlock>1992</Unlock>
 		</Feature>
-		<Feature From="Horrible Quality" Vital="True">
-			<Name>Moderate Quality</Name>
+		<Feature From="Qualité horrible" Vital="True">
+			<Name>Qualité modéré</Name>
 			<Description>480p</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
@@ -85,9 +85,9 @@
 			<CodeArt>0</CodeArt>
 			<Unlock>1992</Unlock>
 		</Feature>
-		<Feature From="Basic Streaming" Vital="True">
-			<Name>Advanced Streaming</Name>
-			<Description>Yay, everything better!</Description>
+		<Feature From="Streaming" Vital="True">
+			<Name>Streaming avancé</Name>
+			<Description>Nom d'une puce, c'est beaucoup mieux !</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
@@ -97,16 +97,16 @@
 		</Feature>
 		<Feature>
 			<Name>Stream Overlay</Name>
-			<Description>Song playing: ** -- Salty Stream -- Latest Donation: **</Description>
+			<Description>Musique: ** -- Salty Stream -- Dernier Donateur: **</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
 			<Unlock>1993</Unlock>
-			<Dependency Software="Streaming Software">Text-in-Stream</Dependency>
-			<Dependency Software="Streaming Software">Music-in-Stream</Dependency>
-			<Dependency Software="Streaming Software">Donate-in-Stream</Dependency>
+			<Dependency Software="Logiciel de Streaming">Tchat en live</Dependency>
+			<Dependency Software="Logiciel de Streaming">Musique en live</Dependency>
+			<Dependency Software="Logiciel de Streaming">Faire un don</Dependency>
 		</Feature>
 	</Features>
 </SoftwareType>
