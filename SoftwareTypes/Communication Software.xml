@@ -1,6 +1,6 @@
 <SoftwareType>
-  <Name>Communication Software</Name>
-    <Description>Communicate with each other on the internet!</Description>
+  <Name>Logiciel de comm.</Name>
+    <Description>Communiquer les uns, les autres avec internet !</Description>
     <Random>0.2</Random>
     <Popularity>0.15</Popularity>
     <OSSpecific>TRUE</OSSpecific>
@@ -12,8 +12,8 @@
     <Category>Communication Software</Category>
 	<Categories>
 		<Category Name="Default">
-		    <Name>Communication Software</Name>
-			<Description>Communicate with each other on the internet!</Description>
+		    <Name>Logiciel de communication</Name>
+			<Description>Communiquer les uns, les autres avec internet !</Description>
 			<Popularity>0.15</Popularity>
 			<Retention>0.4</Retention>
 			<TimeScale>1</TimeScale>
@@ -27,8 +27,8 @@
   </Needs>
   <Features>
     <Feature Forced="True">
-      <Name>Messaging</Name>
-      <Description>Just the classic texting to each other.</Description>
+      <Name>Messagerie</Name>
+      <Description>Juste un texte classique à envoyé.</Description>
       <DevTime>1</DevTime>
       <Innovation>0</Innovation>
       <Usability>2</Usability>
@@ -36,8 +36,8 @@
       <CodeArt>0.95</CodeArt>
     </Feature>
     <Feature Vital="TRUE">
-      <Name>Screenshare</Name>
-      <Description>Share your screen with others.</Description>
+      <Name>Partage d'écran</Name>
+      <Description>Partagez votre écran avec d'autres personnes.</Description>
       <DevTime>1</DevTime>
       <Innovation>1</Innovation>
       <Usability>3</Usability>
@@ -46,8 +46,8 @@
       <Unlock>1982</Unlock>
     </Feature>
     <Feature Vital="TRUE">
-      <Name>Webcam Support</Name>
-      <Description>Show your beatifull face to others.</Description>
+      <Name>Support webcam</Name>
+      <Description>Montrez votre magnifique visage à d'autres.</Description>
       <DevTime>2</DevTime>
       <Innovation>2</Innovation>
       <Usability>3</Usability>
@@ -56,8 +56,8 @@
       <Unlock>1982</Unlock>
     </Feature>
     <Feature Vital="TRUE">
-      <Name>Groups</Name>
-      <Description>Talk to more than 2 people at a time.</Description>
+      <Name>Groupes</Name>
+      <Description>Parlez à deux personnes simultanément.</Description>
       <DevTime>3</DevTime>
       <Innovation>2</Innovation>
       <Usability>3</Usability>
@@ -66,8 +66,8 @@
       <Unlock>1982</Unlock>
     </Feature>
     <Feature Vital="TRUE">
-       <Name>User Commands</Name>
-       <Description>Be able to mute, block and more.</Description>
+       <Name>Commandes utilisateur</Name>
+       <Description>Capable de couper, bloquer et bien plus..</Description>
        <DevTime>2</DevTime>
        <Innovation>3</Innovation>
        <Usability>4</Usability>
@@ -76,8 +76,8 @@
        <Unlock>1983</Unlock>
     </Feature>
     <Feature>
-      <Name>Profile Photo</Name>
-      <Description>Let people know what your face is.</Description>
+      <Name>Photo de profil</Name>
+      <Description>Faites savoir aux gens qui vous êtes.</Description>
       <DevTime>1</DevTime>
       <Innovation>5</Innovation>
       <Usability>1</Usability>
@@ -87,8 +87,8 @@
 				<Dependency Software="2D Editor">Pixel manipulation</Dependency>
     </Feature>
     <Feature>
-      <Name>User Interface</Name>
-      <Description>Ooh, a nice menu.</Description>
+      <Name>Interface utilisateur</Name>
+      <Description>Woua, superbe menu dis-donc !</Description>
       <DevTime>2</DevTime>
       <Innovation>2</Innovation>
       <Usability>4</Usability>
@@ -97,9 +97,9 @@
       <Unlock>1983</Unlock>
       				<Dependency Software="Operating System">GUI</Dependency>
     </Feature>
-    <Feature From="User Interface" Override="True" Vital="TRUE">
-      <Name>Better User Interface</Name>
-      <Description>Ooh, a nicer menu.</Description>
+    <Feature From="Interface utilisateur" Override="True" Vital="TRUE">
+      <Name>Interface utilisateur avancés</Name>
+      <Description>Un bien meilleur menu avec une meilleur organisation !</Description>
       <DevTime>3</DevTime>
       <Innovation>3</Innovation>
       <Usability>5</Usability>

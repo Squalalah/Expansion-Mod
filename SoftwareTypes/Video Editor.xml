@@ -124,7 +124,7 @@
     	    <Stability>0.5</Stability>
     	    <CodeArt>0</CodeArt>
     	    <Unlock>1986</Unlock>
-    	    <Dependency Software="Music Library">Free Music</Dependency>
+    	    <Dependency Software="Bibliothèque de musique">Musique libre de droit</Dependency>
         </Feature>
 	</Features>
 </SoftwareType>

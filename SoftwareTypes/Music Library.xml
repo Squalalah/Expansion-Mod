@@ -1,6 +1,6 @@
 <SoftwareType>
-	<Name>Music Library</Name>
-	<Description>Download, Buy, and Play music!</Description>
+	<Name>Bibliothèque de musique</Name>
+	<Description>Télécharger, acheter, et faite péter le son !</Description>
 	<Random>0.2</Random>
 	<Popularity>0.4</Popularity>
 	<OSSpecific>True</OSSpecific>
@@ -13,7 +13,7 @@
 	<Category>Music Library</Category>
 	<Categories>
 		<Category Name="Default">
-			<Description>Download, Buy, Publish and Play music!</Description>
+			<Description>Télécharger, acheter, et faite péter le son !</Description>
 			<Popularity>0.7</Popularity>
 	        <Retention>0.9</Retention>
 	        <Iterative>0.7</Iterative>
@@ -24,8 +24,8 @@
 	</Categories>
 	<Features>
 		<Feature Forced="True">
-			<Name>Free Music</Name>
-			<Description>Download music for free.</Description>
+			<Name>Musique libre de droit</Name>
+			<Description>Télécharger de la musique libre de droit! Gratuite donc !</Description>
 			<Innovation>0</Innovation>
 			<Stability>1</Stability>
 			<Usability>1.5</Usability>
@@ -33,9 +33,9 @@
 			<DevTime>2</DevTime>
 			<Unlock>0</Unlock>
 		</Feature>
-		<Feature From="Free Music" Viral="True">
-			<Name>Paid Music</Name>
-			<Description>BUY music  to listen to them!</Description>
+		<Feature From="Musique libre de droit" Viral="True">
+			<Name>Musique</Name>
+			<Description>Acheter de la musique pour l'écouter !</Description>
 			<Innovation>0.5</Innovation>
 			<Stability>1</Stability>
 			<Usability>2</Usability>
@@ -44,8 +44,8 @@
 			<Unlock>1981</Unlock>
 		</Feature>
 		<Feature Viral="True">
-			<Name>Music Preview</Name>
-			<Description>Listen to a bit of the music, to be sure if you like it.</Description>
+			<Name>Extrait de musique</Name>
+			<Description>Éecouter une petit morceau de la musique pour savoir si vous l'aimerez.</Description>
 			<Innovation>1.5</Innovation>
 			<Stability>0</Stability>
 			<Usability>2.5</Usability>
@@ -54,9 +54,9 @@
 			<DevTime>3</DevTime>
 			<Unlock>1981</Unlock>
 		</Feature>
-		<Feature From="Paid Music" Viral="True">
-			<Name>Popular Music</Name>
-			<Description>Woots, everyone knows about this music!</Description>
+		<Feature From="Musique" Viral="True">
+			<Name>Musique populaire</Name>
+			<Description>Whats! tout le monde connaît ce morceau !</Description>
 			<Innovation>2.5</Innovation>
 			<Stability>1</Stability>
 			<Usability>1.9</Usability>
@@ -64,8 +64,8 @@
 			<DevTime>3</DevTime>
 		</Feature>
 		<Feature>
-			<Name>Albums</Name>
-			<Description>The possibilities of buying more than one song at a time!</Description>
+			<Name>Album</Name>
+			<Description>Possibiliter d'acheter plusieurs morceaux d'un même album !</Description>
 			<Innovation>1</Innovation>
 			<Stability>0</Stability>
 			<Usability>1</Usability>
@@ -74,8 +74,8 @@
 			<Unlock>1982</Unlock>
 		</Feature>
 		<Feature>
-			<Name>User Interface</Name>
-			<Description>Fancy menu's!</Description>
+			<Name>Interface utilisateur</Name>
+			<Description>Woua, superbe menu dis-donc !</Description>
 			<Innovation>0</Innovation>
 			<Stability>0</Stability>
 			<Usability>2</Usability>
@@ -86,9 +86,9 @@
 				<Name>2D Editor</Name>
 			</Needs>
 		</Feature>
-		<Feature From="User Interface" Override="True">
-			<Name>Better User Interface</Name>
-			<Description>Even better!</Description>
+		<Feature From="Interface utilisateur" Override="True">
+			<Name>Interface utilisateur avancés</Name>
+			<Description>Un bien meilleur menu avec une meilleur organisation !</Description>
 			<Innovation>0.5</Innovation>
 			<Stability>0</Stability>
 			<Usability>2.5</Usability>
@@ -100,8 +100,8 @@
 			</Needs>
 		</Feature>
 		<Feature>
-			<Name>Gift-cards</Name>
-			<Description>Buy some fancy codes for your friends so they can waste more money.</Description>
+			<Name>Cartes cadeaux</Name>
+			<Description>Acheter des cartes cadeaux pour vos amis afin qu'ils puissent y perdre tout leur argent !</Description>
 			<Innovation>1</Innovation>
 			<Stability>0</Stability>
 			<Usability>0</Usability>

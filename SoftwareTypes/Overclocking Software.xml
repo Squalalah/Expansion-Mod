@@ -1,6 +1,6 @@
 <SoftwareType>
-	<Name>Overclocking Software</Name>
-	<Description>Make your hardware run faster.</Description>
+	<Name>Logiciel d'Overclocking</Name>
+	<Description>Faite tourner votre machine beaucoup plus vite.</Description>
 	<Random>0.1</Random>
 	<Popularity>0.1</Popularity>
 	<OSSpecific>False</OSSpecific>
@@ -12,7 +12,7 @@
 	<Category>Overclocking Software</Category>
 	<Categories>
 	    <Category Name="Default">
-	    	<Description>Make your hardware run faster.</Description>
+	    	<Description>Faite tourner votre machine beaucoup plus vite.</Description>
 	    	<Popularity>0.3</Popularity>
 	    	<Retention>0.3</Retention>
 	    	<TimeScale>1</TimeScale>
@@ -26,7 +26,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Simple Overclocking</Name>
-			<Description>Dangerous, takes long, and barely effective.</Description>
+			<Description>Dangereux, prend du temps et peu efficace.</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
@@ -34,8 +34,8 @@
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature From="Simple Overclocking" Vital="TRUE">
-			<Name>Improved Overclocking</Name>
-			<Description>Still a bit dangerous, takes not very long, and is a bit effective.</Description>
+			<Name>Overclocking avancés</Name>
+			<Description>Encore un peu dangereux, un peu plus rapide et efficace</Description>
 			<DevTime>3</DevTime>
 			<Innovation>1.5</Innovation>
 			<Usability>2.5</Usability>
@@ -44,8 +44,8 @@
 			<Unlock>1991</Unlock>
 		</Feature>
 		<Feature Vital="TRUE">
-			<Name>User Interface</Name>
-			<Description>Have those fancy menus.</Description>
+			<Name>Interface utilisateur</Name>
+			<Description>Woua, superbe menu dis-donc !</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
@@ -53,9 +53,9 @@
 			<CodeArt>0.5</CodeArt>
 			<Unlock>1992</Unlock>
 		</Feature>
-		<Feature From="User Interface" Vital="True">
-			<Name>Better User Interface</Name>
-			<Description>Even more fancy menus.</Description>
+		<Feature From="Interface utilisateur" Vital="True">
+			<Name>Interface utilisateur avancés</Name>
+			<Description>Un bien meilleur menu avec une meilleur organisation !</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2.5</Innovation>
 			<Usability>2.5</Usability>
