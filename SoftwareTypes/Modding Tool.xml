@@ -43,7 +43,7 @@
 			<DevTime>1</DevTime>
 			<Unlock>1990</Unlock>
 			<Dependency Software="Modding Tool">Game Modding</Dependency>
-			<Dependency Software="Music Library">Free Music</Dependency>
+			<Dependency Software="Bibliothèque de musique">Musique libre de droit</Dependency>
 		</Feature>
 		<Feature>
 			<Name>Map Editing</Name>
