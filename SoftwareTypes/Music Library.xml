@@ -1,6 +1,6 @@
 <SoftwareType>
 	<Name>Bibliothèque de musique</Name>
-	<Description>Télécharger, acheter, et faite péter le son !</Description>
+	<Description>Télécharger, acheter, et faites péter le son !</Description>
 	<Random>0.2</Random>
 	<Popularity>0.4</Popularity>
 	<OSSpecific>True</OSSpecific>
