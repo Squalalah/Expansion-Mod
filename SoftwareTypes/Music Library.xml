@@ -13,7 +13,7 @@
 	<Category>Music Library</Category>
 	<Categories>
 		<Category Name="Default">
-			<Description>Télécharger, acheter, et faite péter le son !</Description>
+			<Description>Télécharger, acheter, et faites péter le son !</Description>
 			<Popularity>0.7</Popularity>
 	        <Retention>0.9</Retention>
 	        <Iterative>0.7</Iterative>
@@ -45,7 +45,7 @@
 		</Feature>
 		<Feature Viral="True">
 			<Name>Extrait de musique</Name>
-			<Description>Éecouter une petit morceau de la musique pour savoir si vous l'aimerez.</Description>
+			<Description>Écouter une petit morceau de la musique pour savoir si vous l'aimerez.</Description>
 			<Innovation>1.5</Innovation>
 			<Stability>0</Stability>
 			<Usability>2.5</Usability>
@@ -65,7 +65,7 @@
 		</Feature>
 		<Feature>
 			<Name>Album</Name>
-			<Description>Possibiliter d'acheter plusieurs morceaux d'un même album !</Description>
+			<Description>Possibilité d'acheter plusieurs morceaux d'un même album !</Description>
 			<Innovation>1</Innovation>
 			<Stability>0</Stability>
 			<Usability>1</Usability>
@@ -88,7 +88,7 @@
 		</Feature>
 		<Feature From="Interface utilisateur" Override="True">
 			<Name>Interface utilisateur avancés</Name>
-			<Description>Un bien meilleur menu avec une meilleur organisation !</Description>
+			<Description>Un bien meilleur menu avec une meilleure organisation !</Description>
 			<Innovation>0.5</Innovation>
 			<Stability>0</Stability>
 			<Usability>2.5</Usability>
